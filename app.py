@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 
 # ---- Configuration ----
 st.set_page_config(
-    page_title="Kut Water AI", 
+    page_title="Kut Water AI NOWW", 
     page_icon="💧",
     layout="centered"
 )
