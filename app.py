@@ -30,6 +30,9 @@ with st.sidebar:
     temp = st.slider("Temperature (°C)", 0, 50, 25)
     wind = st.slider("Wind Speed (km/h)", 0, 50, 10)
 
+# Initialize yield_pred as None
+yield_pred = None
+
 # ---- Prediction ----
 if st.button("Predict Yield", type="primary"):
     input_data = pd.DataFrame([[humidity, temp, wind]], 
@@ -50,8 +53,7 @@ if st.button("Predict Yield", type="primary"):
     # Success message with conditional emoji
     if yield_pred > 0.3:  # Lowered threshold
         st.success(f"💧 Good collection potential!")
-elif yield_pred > 0.1:
-    st.warning(f"🌫️ Minimal yield")
-else:
-    st.error(f"❌ Unlikely to collect dew")
-    
+    elif yield_pred > 0.1:
+        st.warning(f"🌫️ Minimal yield")
+    else:
+        st.error(f"❌ Unlikely to collect dew")
