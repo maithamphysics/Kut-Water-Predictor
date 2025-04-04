@@ -20,7 +20,7 @@ st.set_page_config(
 model = joblib.load("kut_dew_predictor.pkl")
 
 # ---- Header ----
-st.title("🌧️ Kut Water Harvesting Predictor")
+st.title("🌧️ Kut Water Harvesting Predictor NOWWW")
 st.caption("Optimize dew collection in Iraq's climate")
 
 # ---- Sidebar Inputs ----
