@@ -21,7 +21,7 @@ model = joblib.load("kut_dew_predictor.pkl")
 
 # ---- Header ----
 
-st.title("🌧️ Kut Water Harvesting Predictor LUKE 🚀")
+st.title("🌧️ Kut Water Harvesting Predictor NOW 🚀")
 st.markdown("🌟 Predict dew yield for optimal water harvesting in Iraq!")
 st.caption("Optimize dew collection in Iraq's climate")
 
