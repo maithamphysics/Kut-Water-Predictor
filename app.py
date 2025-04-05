@@ -62,7 +62,11 @@ model = load_model()
 
 # ---- Header Section ----
 # ---- Header Section ----
+<<<<<<< HEAD
 st.title("🌧️ THIS IS MODIFIACATION IN VS CODE MACBOOK")  # Changed for testing
+=======
+st.title("🌧️ KUT Weather NOW GHUFRANNNNNN!!!!")  # Changed for testing
+>>>>>>> a9dcc7d2a8c71b13088213c36f08230db0b063d5
 st.write("TEST LINE - PLEASE DELETE ME!!!")  # Should be visible
 st.markdown("""
     **Optimize dew collection in arid climates**  
