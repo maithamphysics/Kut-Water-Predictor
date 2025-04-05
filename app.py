@@ -62,7 +62,7 @@ model = load_model()
 
 # ---- Header Section ----
 # ---- Header Section ----
-st.title("🌧️ Kut Water Predictor TEST 123")  # Changed for testing
+st.title("🌧️ DANUTA FURST")  # Changed for testing
 st.write("TEST LINE - PLEASE DELETE ME!!!")  # Should be visible
 st.markdown("""
     **Optimize dew collection in arid climates**  
