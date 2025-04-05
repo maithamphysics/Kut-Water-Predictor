@@ -62,7 +62,7 @@ model = load_model()
 
 # ---- Header Section ----
 # ---- Header Section ----
-st.title("🌧️ KUT WEATHER APP now !!!")  # Changed for testing
+st.title("🌧️ KUT WEATHER APP NOW!! !!!")  # Changed for testing
 
 st.markdown("""
     **Optimize dew collection in arid climates**  
