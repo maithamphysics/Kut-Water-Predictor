@@ -62,8 +62,8 @@ model = load_model()
 
 # ---- Header Section ----
 # ---- Header Section ----
-st.title("🌧️ KUT WEATHER APP")  # Changed for testing
-st.write("TEST LINE - PLEASE DELETE ME!!!")  # Should be visible
+st.title("🌧️ KUT WEATHER APP now !!!")  # Changed for testing
+
 st.markdown("""
     **Optimize dew collection in arid climates**  
     *Scientific model for water sustainability in Iraq*
