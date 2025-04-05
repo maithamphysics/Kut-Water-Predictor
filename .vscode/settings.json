@@ -1,0 +1,12 @@
+{
+  "files.watcherExclude": {
+    "**/../Kut/**": true
+  },
+  "files.exclude": {
+    "../Kut": true
+  },
+  "python.analysis.extraPaths": ["."],
+  "search.exclude": {
+    "**/../Kut": true
+  }
+}

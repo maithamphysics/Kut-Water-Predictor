@@ -4,3 +4,9 @@ __pycache__/
 *.png
 kut.vscode/
 Kut-Water-Predictor/
+
+# Added during cleanup
+*.csv
+*.png
+*.pyc
+__pycache__/
