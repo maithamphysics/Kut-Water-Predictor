@@ -1,12 +1,8 @@
 .venv/
 __pycache__/
+*.py[cod]
+*.pkl
 *.csv
-*.png
-kut.vscode/
-Kut-Water-Predictor/
-
-# Added during cleanup
-*.csv
-*.png
-*.pyc
-__pycache__/
+.DS_Store
+.ipynb_checkpoints
+streamlit.log
